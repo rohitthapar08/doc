@@ -43,7 +43,7 @@ src_port=($src_port)
 dst_port={($dst_port)}
 
 
-[998] #generic rule
+[998] #generic 
 event_type=event
 regexp='^(?P<date>\w+\s+\d+\s+\d+:\d+:\d+).*?(?P<device>\S+)'   
 date={normalize_date($date)}
